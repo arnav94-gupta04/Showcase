@@ -1,0 +1,790 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UX/UI</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+</head>
+
+<body>
+    <header id="header">
+        <div class="d-flex flex-row align-items-center justify-content-even header1" style="background-color: rgb(255,255,255); transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s; width: 
+                   100%; padding-top: 10px; padding-bottom: 6px; position: fixed;">
+
+            <img src="vcet-logo2.png" alt="VCET Logo" class="custom-logo">
+            <div class="text-center">
+                <h3 class="black-text" style="font-family: Poppins, Sans-serif;">VIDYAVARDHINI'S COLLEGE OF
+                    ENGINEERING & TECHNOLOGY, VASAI ROAD</h3>
+                <h3 class="black-text">Department of Computer Science & Engineering (Data Science)</h3>
+            </div>
+            <img src="cseds (copy).png" alt="CSEDS Logo" class="custom-logo ">
+        </div>
+    </header>
+    <!--search box and profile-->
+    <div class="cont">
+        <div class="navbar">
+             <div class="search-container">
+               <h3>Hello Admin ! Have A Great Day.</h3>
+            </div> 
+
+            <button onclick="Para('hide-para1')" class="accounts">
+                <span class="material-symbols-outlined" id="profile">person </span>
+                <p style="color: black;"><b>Account</b></p>
+            </button>
+        </div>
+    </div>
+    <div class="box">
+        <div class="navbar1" style="background-color: rgba(255,255,255,0); margin-top: 67px;">
+            <!-- <div class="search-box" style="border: 4px solid rgba(255,255,255,0);">
+            </div> -->
+            <div class="hide-para" id="hide-para1">
+                <a href="profile.html" style="color:black;"><span class=" material-symbols-outlined"
+                        style="height: 20px;">person</span> Profile</a>
+                <a href="login.html" style="color:black;"><span class=" material-symbols-outlined"
+                        style="font-size: 20px;">logout</span>Logout</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <!-- ASIDE SECTION START-->
+        <aside id="navigation">
+            <div class="top">
+                <h2 style="text-align: center;">TABLE OF <span class="danger">CONTENTS</span></h2>
+            </div>
+            <br><br>
+            <div class="side-bar">
+                <ol>
+                    <li><a href="form1.html" target="_blank">1. Active MOU</a></li><br>
+                    <li><a href="form 2.html" target="_blank">2. Funded Project </a></li><br>
+                    <li><a href="form3.html" target="_blank">3. Book Published/Chapter</a></li><br>
+                    <li><a href="form4.html" target="_blank">4. FDP Attended by Faculty</a></li><br>
+                    <li><a href="form5.html" target="_blank">5. FDP Conducted by Department</a></li><br>
+                     <!-- new page -->
+                    <li><a href="form6A.html"target="_blank">6. SDP Conducted by Department</a></li><br>
+                    <!-- end -->
+                    <li><a href="form6.html"target="_blank">7. Expert Lecturer Arranged</a></li><br>
+                    <li><a href="form7.html"target="_blank">8. Expert Lecture Conducted</a></li><br>
+                    <li><a href="form8.html"target="_blank">9. Industrial Visit Arranged</a></li><br>
+                    <li><a href="form9.html"target="_blank">10. Paper Published by Faculty</a></li><br>
+                    <li><a href="form10.html"target="_blank">11. Paper Presented by Faculty</a></li><br>
+                    <li><a href="form11.html"target="_blank">12. Patents/copyrights </a></li><br>
+                    <!-- new page -->
+                    <li><a href="form12.html"target="_blank">13. Extra-Curricular Activity</a></li><br>
+                     <!-- end -->
+                    <li><a href="form13.html"target="_blank">14. Faculty Information</a></li><br>
+                    <li><a href="form14.html"target="_blank">15. Faculty Member Involved in Journal/book/Chapter Review</a></li><br>
+                    <li><a href="form15.html"target="_blank">16. New Company Introduced by Faculty for Placement/internship</a></li><br>
+                    <li><a href="form16.html"target="_blank">17. Faculty undergoing Industrial Training</a></li><br>
+                    <li><a href="form17.html"target="_blank">18. Company Participated in Product Showcase</a></li><br>
+                    <!-- change in page -->
+                    <li><a href="form18.html"target="_blank">19. Workshop Arranged by Department</a></li><br>
+                    <li><a href="form19.html"target="_blank">20. Information About Placed Students</a></li><br>
+                    <!-- end -->
+                    <li><a href="form20.html"target="_blank">21. Students Participation in Co-curricular Activities Conducted</a></li><br>
+                    <li><a href="form21.html"target="_blank">22. Co-curricular Student wise Activity</a></li><br>
+                    <li><a href="form22.html"target="_blank">23. Gate & Other Competitive Exam Record</a></li><br>
+                    <li><a href="form23.html"target="_blank">24. Higher Studies/Admission Details</a></li><br>
+                    <li><a href="form24.html"target="_blank">25. Paper Published by Students</a></li><br>
+                    <li><a href="form25.html"target="_blank">26. Paper Presented by Students</a></li><br>
+                    <li><a href="form26.html"target="_blank">27. Patents/Copyrights Published /Granted by Students</a></li><br>
+                    <li><a href="form27.html"target="_blank">28. SDP Internship </a></li><br>
+                </ol>
+            </div>
+        </aside>
+        <main>
+            <h1>Welcome to the Dashboard</h1>
+
+
+            <div class="insights">
+
+                <!--start button 1-->
+                <div class="sales">
+                     <br></br>
+                    <div class="middle"
+                        style="height:220px; display: flex; flex-direction: column; justify-content: space-between;">
+
+                        <h1 style="color: white;">Details of Active MOU</h1>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+
+                        <a href="form1.html" class="button" target="_blank">
+                            <div class="button">
+                                <button>
+                                    <h3>Analysis</h3>
+                                </button>
+                            </div>
+                        </a>
+
+
+
+                    </div>
+                </div>
+                <!--end button 1-->
+
+
+
+                <!--start button 2-->
+                <div class="sales">
+                     <br></br>
+                    <div class="middle"
+                        style=" height:220px; flex; flex-direction: column; justify-content: space-between;">
+
+                        <h1 style="color: white;">Details of Funded Project Applied and Granted </h1>
+                        <br>
+
+
+
+                        <a href="form 2.html" class="button" target="_blank">
+                            <div class="button">
+                                <button>
+                                    <h3 class="spcl">Analysis</h3>
+                                </button>
+                            </div>
+                        </a>
+
+
+
+                    </div>
+                </div>
+                <!--end button 2-->
+                <!--start button 3-->
+                <div class="sales">
+                     <br></br>
+                    <div class="middle"
+                        style="height:220px; display: flex; flex-direction: column; justify-content: space-between;">
+
+                        <h1 style="color: white;"> Details of Book Published / Chapter</h1>
+                        <br>
+                        <br>
+                        <br>
+
+
+                        <a href="form3.html" class="button" target="_blank">
+                            <div class="button">
+                                <button>
+                                    <h3>Analysis</h3>
+                                </button>
+                            </div>
+                        </a>
+
+
+
+                    </div>
+                </div>
+                <!--start button 4-->
+                <div class="sales">
+                     <br></br>
+                    <div class="middle"
+                        style="height:220px; display: flex; flex-direction: column; justify-content: space-between;">
+
+                        <h1 style="color: white;">Details of FDP Attended by Faculty</h1>
+                        <br>
+                        <br>
+                        <br>
+
+
+                        <a href="form4.html" class="button" target="_blank">
+                            <div class="button">
+                                <button>
+                                    <h3>Analysis</h3>
+                                </button>
+                            </div>
+                        </a>
+
+
+
+                    </div>
+                </div>
+                <!--start button 5-->
+                <div class="sales">
+                     <br></br>
+                    <div class="middle"
+                        style="height:220px; display: flex; flex-direction: column; justify-content: space-between;">
+
+                        <h1 style="color: white;">Details of FDP Conducted by Department</h1>
+                        <br>
+
+
+
+                        <a href="form5.html" class="button" target="_blank">
+                            <div class="button">
+                                <button>
+                                    <h3>Analysis</h3>
+                                </button>
+                            </div>
+                        </a>
+
+
+
+                    </div>
+                </div>
+                 <!--start button 6A-->
+                <div class="sales">
+                    <br></br>
+                   <div class="middle"
+                       style="height:220px; display: flex; flex-direction: column; justify-content: space-between;">
+
+                       <h1 style="color: white;">Details of SDP Conducted by Department</h1>
+                       <br>
+
+
+
+                       <a href="form6A.html" class="button" target="_blank">
+                           <div class="button">
+                               <button>
+                                   <h3>Analysis</h3>
+                               </button>
+                           </div>
+                       </a>
+                    </div>
+                </div>
+                <!--start button 6-->
+                <div class="sales">
+                     <br></br>
+                    <div class="middle"
+                        style="height:220px; display: flex; flex-direction: column; justify-content: space-between;">
+
+                        <h1 style="color: white;">Details of Expert Lecturer Arranged
+                        </h1>
+                        <br>
+                        <br>
+                        <br>
+
+                        <a href="form6.html" class="button" target="_blank">
+                            <div class="button">
+                                <button>
+                                    <h3>Analysis</h3>
+                                </button>
+                            </div>
+                        </a>
+
+
+
+                    </div>
+                </div>
+                <!--start button 7-->
+                <div class="sales">
+                     <br></br>
+                    <div class="middle"
+                        style="height:220px; display: flex; flex-direction: column; justify-content: space-between;">
+
+                        <h1 style="color: white;">Details of Expert Lecture Conducted
+                        </h1>
+                        <br>
+                        <br>
+                        <br>
+
+
+                        <a href="form7.html" class="button" target="_blank">
+                            <div class="button">
+                                <button>
+                                    <h3>Analysis</h3>
+                                </button>
+                            </div>
+                        </a>
+
+
+
+                    </div>
+                </div>
+                <!--start button 8-->
+                <div class="sales">
+                     <br></br>
+                    <div class="middle"
+                        style="height:220px; display: flex; flex-direction: column; justify-content: space-between;">
+
+                        <h1 style="color: white;">Details of Industrial Visit Arranged
+                        </h1>
+                        <br>
+                        <br>
+                        <br>
+
+                        <a href="form8.html" class="button" target="_blank">
+                            <div class="button">
+                                <button>
+                                    <h3>Analysis</h3>
+                                </button>
+                            </div>
+                        </a>
+
+
+
+                    </div>
+                </div>
+                <!--start button 9-->
+                <div class="sales">
+                     <br></br>
+                    <div class="middle"
+                        style="height:220px; display: flex; flex-direction: column; justify-content: space-between;">
+
+                        <h1 style="color: white;">Details of Paper Published by Faculty
+                        </h1>
+                        <br>
+                        <br>
+                        <br>
+
+
+                        <a href="form9.html" class="button" target="_blank">
+                            <div class="button">
+                                <button>
+                                    <h3>Analysis</h3>
+                                </button>
+                            </div>
+                        </a>
+
+
+
+                    </div>
+                </div>
+                <!--start button 10-->
+                <div class="sales">
+                     <br></br>
+                    <div class="middle"
+                        style="height:220px; display: flex; flex-direction: column; justify-content: space-between;">
+
+                        <h1 style="color: white;">Details of Paper Presented by Faculty
+                        </h1>
+                        <br>
+                        <br>
+                        <br>
+
+                        <a href="form10.html" class="button" target="_blank">
+                            <div class="button">
+                                <button>
+                                    <h3>Analysis</h3>
+                                </button>
+                            </div>
+                        </a>
+
+
+
+                    </div>
+                </div>
+                <!--start button 11-->
+                <div class="sales">
+                     <br></br>
+                    <div class="middle"
+                        style="height:220px; display: flex; flex-direction: column; justify-content: space-between;">
+
+                        <h1 style="color: white;">Details of Patents / Copyrights Published / Granted
+                        </h1>
+                        <br>
+
+
+
+                        <a href="form11.html" class="button" target="_blank">
+                            <div class="button">
+                                <button>
+                                    <h3>Analysis</h3>
+                                </button>
+                            </div>
+                        </a>
+
+
+
+                    </div>
+                </div>
+                <!--start button 12-->
+                <div class="sales">
+                     <br></br>
+                    <div class="middle"
+                        style="height:220px; display: flex; flex-direction: column; justify-content: space-between;">
+
+                        <h1 style="color: white;">Extra-Curricular Activity
+                        </h1>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+
+                        <a href="form12.html" class="button" target="_blank">
+                            <div class="button">
+                                <button>
+                                    <h3>Analysis</h3>
+                                </button>
+                            </div>
+                        </a>
+
+
+
+                    </div>
+                </div>
+                <!--start button 13-->
+                <div class="sales">
+                     <br></br>
+                    <div class="middle"
+                        style="height:220px; display: flex; flex-direction: column; justify-content: space-between;">
+
+                        <h1 style="color: white;">Faculty Information
+                        </h1>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+
+                        <a href="form13.html" class="button" target="_blank">
+                            <div class="button">
+                                <button>
+                                    <h3>Analysis</h3>
+                                </button>
+                            </div>
+                        </a>
+
+
+
+                    </div>
+                </div>
+                <!--start button 14-->
+                <div class="sales">
+                     <br></br>
+                    <div class="middle"
+                        style="height:220px; display: flex; flex-direction: column; justify-content: space-between;">
+
+                        <h1 style="color: white;">Details of Faculty Member Involved in Journal / Book / Chapter Review
+                        </h1>
+
+
+                        <a href="form14.html" class="button" target="_blank">
+                            <div class="button">
+                                <button>
+                                    <h3>Analysis</h3>
+                                </button>
+                            </div>
+                        </a>
+
+
+
+                    </div>
+                </div>
+                <!--start button 15-->
+                <div class="sales">
+                     <br></br>
+                    <div class="middle"
+                        style="height:220px; display: flex; flex-direction: column; justify-content: space-between;">
+
+                        <h1 style="color: white;">Details of New Company Introduced by Faculty for Placement / Intership
+                        </h1>
+
+
+                        <a href="form15.html" class="button" target="_blank">
+                            <div class="button">
+                                <button>
+                                    <h3>Analysis</h3>
+                                </button>
+                            </div>
+                        </a>
+
+
+
+                    </div>
+                </div>
+                <!--start button 16-->
+                <div class="sales">
+                     <br></br>
+                    <div class="middle"
+                        style="height:220px; display: flex; flex-direction: column; justify-content: space-between;">
+
+                        <h1 style="color: white;">Details of Faculty undergoing Industrial Training
+                        </h1>
+                        <br>
+                        <br>
+
+
+                        <a href="form16.html" class="button" target="_blank">
+                            <div class="button">
+                                <button>
+                                    <h3>Analysis</h3>
+                                </button>
+                            </div>
+                        </a>
+
+
+
+                    </div>
+                </div>
+                <!--start button 17-->
+                <div class="sales">
+                     <br></br>
+                    <div class="middle"
+                        style="height:220px; display: flex; flex-direction: column; justify-content: space-between;">
+
+                        <h1 style="color: white;">Details of Company Paricipated in Product Showcase
+                        </h1>
+                        <br>
+                        <br>
+
+
+                        <a href="form17.html" class="button" target="_blank">
+                            <div class="button">
+                                <button>
+                                    <h3>Analysis</h3>
+                                </button>
+                            </div>
+                        </a>
+
+
+
+                    </div>
+                </div>
+                <!--start button 18-->
+                <div class="sales">
+                     <br></br>
+                    <div class="middle"
+                        style="height:220px; display: flex; flex-direction: column; justify-content: space-between;">
+
+                        <h1 style="color: white;">Workshop Arranged by Department
+                        </h1>
+                        <br>
+                        <br>
+
+
+                        <a href="form18.html" class="button" target="_blank">
+                            <div class="button">
+                                <button>
+                                    <h3>Analysis</h3>
+                                </button>
+                            </div>
+                        </a>
+
+
+
+                    </div>
+                </div>
+                <!--start button 19-->
+                <div class="sales">
+                     <br></br>
+                    <div class="middle"
+                        style="height:220px; display: flex; flex-direction: column; justify-content: space-between;">
+
+                        <h1 style="color: white;">Information about Placed Students </h1>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+
+
+                        <a href="form19.html" class="button" target="_blank">
+                            <div class="button">
+                                <button>
+                                    <h3>Analysis</h3>
+                                </button>
+                            </div>
+                        </a>
+
+
+
+                    </div>
+                </div>
+                <!--start button 20-->
+                <div class="sales">
+                     <br></br>
+                    <div class="middle"
+                        style="height:220px; display: flex; flex-direction: column; justify-content: space-between;">
+
+                        <h1 style="color: white;">Students Participation in Co Curricular Activities Conducted
+                        </h1>
+                        <br>
+                        <br>
+                        <br>
+
+                        <a href="form20.html" class="button" target="_blank">
+                            <div class="button">
+                                <button>
+                                    <h3>Analysis</h3>
+                                </button>
+                            </div>
+                        </a>
+
+
+
+                    </div>
+                </div>
+                <!--start button 21-->
+                <div class="sales">
+                     <br></br>
+                    <div class="middle"
+                        style="height:220px; display: flex; flex-direction: column; justify-content: space-between;">
+
+                        <h1 style="color: white;">Details of Co Curricular Student wise Activity
+                        </h1>
+                        <br>
+                        <br>
+                        <br>
+
+
+                        <a href="form21.html" class="button" target="_blank">
+                            <div class="button">
+                                <button>
+                                    <h3>Analysis</h3>
+                                </button>
+                            </div>
+                        </a>
+
+
+
+                    </div>
+                </div>
+                <!--start button 22-->
+                <div class="sales">
+                     <br></br>
+                    <div class="middle"
+                        style="height:220px; display: flex; flex-direction: column; justify-content: space-between;">
+
+                        <h1 style="color: white;">Details of Gate & Other Competitive Exam Record
+                        </h1>
+                        <br>
+
+
+                        <a href="form22.html" class="button" target="_blank">
+                            <div class="button">
+                                <button>
+                                    <h3>Analysis</h3>
+                                </button>
+                            </div>
+                        </a>
+
+
+
+                    </div>
+                </div>
+                <!--start button 23-->
+                <div class="sales">
+                     <br></br>
+                    <div class="middle"
+                        style="height:220px; display: flex; flex-direction: column; justify-content: space-between;">
+
+                        <h1 style="color: white;">Details of Higher Studies </h1>
+                        <br>
+                        <br>
+                        <br>
+
+
+                        <a href="form23.html" class="button" target="_blank">
+                            <div class="button">
+                                <button>
+                                    <h3>Analysis</h3>
+                                </button>
+                            </div>
+                        </a>
+
+
+
+                    </div>
+                </div>
+                <!--start button 24-->
+                <div class="sales">
+                     <br></br>
+                    <div class="middle"
+                        style="height:220px; display: flex; flex-direction: column; justify-content: space-between;">
+
+                        <h1 style="color: white;">Details of Paper Published by Students</h1>
+                        <br>
+                        <br>
+                        <br>
+
+
+                        <a href="form24.html" class="button" target="_blank">
+                            <div class="button">
+                                <button>
+                                    <h3>Analysis</h3>
+                                </button>
+                            </div>
+                        </a>
+
+
+
+                    </div>
+                </div>
+                <!--start button 25-->
+                <div class="sales">
+                     <br></br>
+                    <div class="middle"
+                        style="height:220px; display: flex; flex-direction: column; justify-content: space-between;">
+
+                        <h1 style="color: white;">Details of Paper Presented by Students
+                        </h1>
+                        <br>
+                        <br>
+                        <br>
+
+
+                        <a href="form25.html" class="button" target="_blank">
+                            <div class="button">
+                                <button>
+                                    <h3>Analysis</h3>
+                                </button>
+                            </div>
+                        </a>
+
+
+
+                    </div>
+                </div>
+                <!--start button 26-->
+                <div class="sales">
+                     <br></br>
+                    <div class="middle"
+                        style="height:220px; display: flex; flex-direction: column; justify-content: space-between;">
+
+                        <h1 style="color: white;">Details of Patents / Copyrights Published / Granted by Students
+                        </h1>
+
+
+                        <a href="form26.html" class="button" target="_blank">
+                            <div class="button">
+                                <button>
+                                    <h3>Analysis</h3>
+                                </button>
+                            </div>
+                        </a>
+
+
+
+                    </div>
+                </div>
+                <!--start button 27-->
+                <div class="sales">
+                     <br></br>
+                    <div class="middle"
+                        style="height:220px; display: flex; flex-direction: column; justify-content: space-between;">
+
+                        <h1 style="color: white;">Details of SDP Internship</h1>
+                        <br>
+                        <br>
+                        <br>
+
+                        <a href="form27.html" class="button" target="_blank">
+                            <div class="button">
+                                <button>
+                                    <h3>Analysis</h3>
+                                </button>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <!--a main section end-->
+
+        <script>
+            function Para(paraId) {
+                var paragraph = document.getElementById(paraId);
+                paragraph.style.display = (paragraph.style.display === 'none') ? 'block' : 'none';
+            }
+        </script>
+        <script> src = "script.js"</script>
+</body>
+
+</html>
